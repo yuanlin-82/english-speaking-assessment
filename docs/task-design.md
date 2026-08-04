@@ -21,7 +21,7 @@ Counts per type and which types appear in **brief** vs **detailed** reports are 
 1. **One primary job per item** — do not ask one clip to prove every construct.
 2. **Interview relevance** — prompts should feel like workplace / interview communication, not pure classroom drills, where the product allows.
 3. **Comparable difficulty within type** — so composition across items is not dominated by a single outlier stem.
-4. **Separate dialogue routing from oral scoring** — multi-turn Chinese/English **interview follow-ups** live in [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map); this repo is about **ability scores on speaking tasks**, not whether to ask another probe.
+4. **Separate dialogue routing from oral scoring** — multi-turn **competency** interview follow-ups (including English-track) live in [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map). Those turns look like “English dialogue” but target **job evidence**, not language performance under an interaction-based oral-proficiency model. See [task-vs-interaction.md](task-vs-interaction.md).
 
 ---
 
