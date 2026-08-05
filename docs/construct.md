@@ -43,6 +43,8 @@ Applied linguistics often discusses **CAF**: complexity, accuracy, fluency. Larg
 
 Public stance: **content completeness ≠ complexity**. Do not over-read a hiring oral report as a full CAF profile or as any branded exam scale. Band-style packaging is optional product copy, not the core claim of this methodology.
 
+**Pronunciation accuracy** is especially easy for non-specialist HR to hear as “sounds like British/American movie speech” or simply “not Chinese-accented.” That folk reading collides with reference-accent and **channel** effects—see [failure-case-pronunciation-accent-channel.md](failure-case-pronunciation-accent-channel.md).
+
 ---
 
 ## Perceived vs utterance fluency

@@ -30,7 +30,8 @@ Companion repo (dialogue **routing**, not ability scores):
 4. [docs/fluency.md](docs/fluency.md) — why fluency is owned in-house; observable chain  
 5. [docs/score-composition.md](docs/score-composition.md) — vendor scores + report composition contract  
 6. [docs/lexicon-layer.md](docs/lexicon-layer.md) — supporting lexicon / morphology layer (shape only)  
-7. [docs/limits.md](docs/limits.md) — what this repo will not claim  
+7. [docs/failure-case-pronunciation-accent-channel.md](docs/failure-case-pronunciation-accent-channel.md) — field note: movie-like speech vs score; accent identity; channel/audio  
+8. [docs/limits.md](docs/limits.md) — what this repo will not claim  
 
 ---
 
