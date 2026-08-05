@@ -8,7 +8,7 @@ This document describes **how report scores are assembled**, not vendor measurem
 
 | Mode | Item coverage | Report grain |
 | --- | --- | --- |
-| **Brief** | Subset of item types (e.g. three of five) | Coarser dimensions (e.g. accuracy / fluency / integrity) |
+| **Brief** | Subset of item types (e.g. three of five) | Coarser dimensions (e.g. pronunciation accuracy / fluency / content completeness) |
 | **Detailed** | Full type set | Finer sub-dimensions rolled into the same parent constructs |
 
 Exact type counts, which types enter brief mode, and numeric weights are **product configuration**—omitted here.
@@ -19,8 +19,8 @@ Exact type counts, which types enter brief mode, and numeric weights are **produ
 
 | Input | Source | Public stance |
 | --- | --- | --- |
-| Accuracy-like scores | Speech scoring vendor | Use as typed inputs; do not reverse-engineer the vendor |
-| Integrity-like / content scores | Vendor and/or task-specific rules | Same |
+| Pronunciation-accuracy scores | Speech scoring vendor | Use as typed inputs; do not reverse-engineer the vendor |
+| Content-completeness scores | Vendor and/or task-specific rules | Same |
 | Fluency | In-house chain ([fluency.md](fluency.md)) | Authoritative for the fluency axis in this stack |
 | Per-type coefficients | Product policy | Shape: types can weight differently; values private |
 | Missing-item policy | Product policy | Shape: unanswered items should shrink confidence or total via a **documented rule** (e.g. answered/expected scaling)—exact exponents private |
@@ -37,9 +37,9 @@ Exact type counts, which types enter brief mode, and numeric weights are **produ
 
 ---
 
-## What “integrity” contributes in composition
+## What content completeness contributes in composition
 
-Integrity answers: *did this response satisfy the communicative demand of the item?*  
+**Content completeness** answers: *did this response satisfy the communicative / informational demand of the item?*  
 That can dominate open tasks (paraphrase, listen–answer, content expression) and matter less for pure read-aloud—type coefficients exist partly for that reason.
 
 ---

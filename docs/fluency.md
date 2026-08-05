@@ -2,7 +2,7 @@
 
 ## Why not “take the vendor fluency number”?
 
-In this product line, **vendor fluency scores correlated poorly with expert fluency ratings** relative to what the report needed. Accuracy / integrity-style scores from the vendor remained usable as **inputs to composition**; fluency did not—so fluency became an **in-house** construct with its own observables and validation story.
+In this product line, **vendor fluency scores correlated poorly with expert fluency ratings** relative to what the report needed. Pronunciation-accuracy and content-completeness-style scores from the vendor remained usable as **inputs to composition**; fluency did not—so fluency became an **in-house** construct with its own observables and validation story.
 
 Public claim: **own the fluency evidence chain**; treat vendor fluency (if present) as non-authoritative for the report.
 

@@ -6,11 +6,11 @@ Illustrative item types used in this product family (names are descriptive; prod
 
 | Type | Rough job | Primary evidence lean |
 | --- | --- | --- |
-| **Read-aloud** | Controlled production from text | Accuracy / articulation under known target; limited content freedom |
-| **Listen–repeat** | Immediate imitation | Accuracy + short-span fluency under memory load |
-| **Paraphrase** | Reformulate heard / given meaning | Integrity of meaning + productive fluency under rewording |
-| **Listen–answer** | Comprehend then respond | Integrity of answer relevance; fluency under Q&A pressure |
-| **Content expression** | Open / semi-open speaking on a prompt | Integrity of coverage; fluency under planning load |
+| **Read-aloud** | Controlled production from text | Pronunciation accuracy under known target; limited content freedom |
+| **Listen–repeat** | Immediate imitation | Pronunciation accuracy + short-span fluency under memory load |
+| **Paraphrase** | Reformulate heard / given meaning | Content completeness of meaning + productive fluency under rewording |
+| **Listen–answer** | Comprehend then respond | Content completeness / answer relevance; fluency under Q&A pressure |
+| **Content expression** | Open / semi-open speaking on a prompt | Content completeness of coverage; fluency under planning load |
 
 Counts per type and which types appear in **brief** vs **detailed** reports are product policy (see [score-composition.md](score-composition.md)). Exact stems and audio assets are omitted.
 

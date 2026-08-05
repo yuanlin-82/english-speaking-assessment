@@ -18,13 +18,15 @@ Coarse product axes often look like:
 
 | Construct (product language) | Typical evidence | Ownership in this stack |
 | --- | --- | --- |
-| **Accuracy** (family) | Pronunciation / form / wording signals (may be split into finer indicators in detailed reports) | Often vendor score types + composition here |
+| **Pronunciation accuracy** | How clearly / accurately speech matches expected pronunciation targets | Often vendor score type; composed here |
 | **Fluency** (family) | Speech rate, pauses, repair / hesitation; expert-aligned | **Self-built** evidence chain preferred when vendor “fluency” fails expert alignment |
-| **Integrity / completeness** | Whether the response covers required content vs a reference or task demand | Often vendor or hybrid; **operational**, not CAF complexity |
+| **Content completeness** | Whether the response covers required content vs a reference or task demand | Often vendor or hybrid; **operational**, not CAF complexity |
 
-Finer indicators (e.g. rate vs pause vs repair; lexical/grammatical richness) may roll into these axes. Public docs state the **families and ownership**, not production weights.
+Finer indicators (e.g. rate vs pause vs repair; lexical/grammatical form or richness) may appear in detailed reports. Public docs state the **coarse axes and ownership**, not production weights.
 
-“Integrity” / content completeness means **task / content adequacy**, not moral integrity and not CAF **complexity**.
+**Content completeness** means task / information coverage—not “integrity” in the moral sense, and not CAF **complexity**.
+
+Avoid bare labels **Accuracy** / **Integrity** on stakeholder reports: they overclaim or misread easily.
 
 ---
 
@@ -34,12 +36,12 @@ Applied linguistics often discusses **CAF**: complexity, accuracy, fluency. Larg
 
 | CAF | Product report | Notes |
 | --- | --- | --- |
-| Accuracy | Accuracy family | Name-aligned; measurement may still be vendor-defined for some sub-scores. |
+| Accuracy (broad: form) | **Pronunciation accuracy** (narrower) | Product coarse axis emphasizes pronunciation; other form scores (lexis/grammar) may exist as fine indicators, not this label. |
 | Fluency | Fluency family | Intent-aligned; utterance features (rate / pause / repair) owned when needed. |
-| Complexity | *(not always a primary report axis)* | Lexical / syntactic richness may appear as supporting indicators; product “integrity” is **not** a substitute for complexity. |
-| — | Integrity / completeness | Operational: did the speaker meet the item’s content demand? |
+| Complexity | *(not always a primary report axis)* | Lexical / syntactic richness may appear as supporting indicators; **content completeness** is **not** a substitute for complexity. |
+| — | **Content completeness** | Operational: did the speaker meet the item’s content demand? |
 
-Public stance: **integrity ≠ complexity**. Do not over-read a hiring oral report as a full CAF profile or as any branded exam scale. Band-style packaging is optional product copy, not the core claim of this methodology.
+Public stance: **content completeness ≠ complexity**. Do not over-read a hiring oral report as a full CAF profile or as any branded exam scale. Band-style packaging is optional product copy, not the core claim of this methodology.
 
 ---
 

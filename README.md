@@ -17,7 +17,7 @@ Companion repo (dialogue **routing**, not ability scores):
 | **Elicitation family** | Task-based vs interaction-based; plus a hard separation from **English-medium competency interviews**. |
 | **Task design** | Interview-oriented speaking tasks under an evidence-centered framing (what each item elicits). |
 | **Fluency** | A self-built evidence chain (rate / pause / repair → perceived fluency) when vendor “fluency” fails expert alignment. |
-| **Accuracy & integrity** | Often **vendor-provided** score types plus composition here—not a claim to own vendor internals. Integrity / completeness ≠ CAF complexity. |
+| **Pronunciation accuracy & content completeness** | Often **vendor-provided** score types plus composition here—not a claim to own vendor internals. Content completeness ≠ CAF complexity. |
 | **Composition** | Brief vs detailed report contracts—**shape only**, no production tables. |
 
 ---
