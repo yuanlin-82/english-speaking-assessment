@@ -31,7 +31,8 @@ Companion repo (dialogue **routing**, not ability scores):
 5. [docs/score-composition.md](docs/score-composition.md) — vendor scores + report composition contract  
 6. [docs/lexicon-layer.md](docs/lexicon-layer.md) — supporting lexicon / morphology layer (shape only)  
 7. [docs/failure-case-pronunciation-accent-channel.md](docs/failure-case-pronunciation-accent-channel.md) — field note: movie-like speech vs score; accent identity; channel/audio  
-8. [docs/limits.md](docs/limits.md) — what this repo will not claim  
+8. [docs/failure-case-vendor-fluency-insensitive.md](docs/failure-case-vendor-fluency-insensitive.md) — field note: vendor fluency barely moves under obvious disfluency  
+9. [docs/limits.md](docs/limits.md) — what this repo will not claim  
 
 ---
 
