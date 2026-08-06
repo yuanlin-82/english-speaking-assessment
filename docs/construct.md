@@ -24,7 +24,7 @@ Coarse product axes often look like:
 
 Finer indicators (e.g. rate vs pause vs repair; lexical/grammatical form or richness) may appear in detailed reports. Public docs state the **coarse axes and ownership**, not production weights.
 
-**Content completeness** means task / information coverage—not “integrity” in the moral sense, and not CAF **complexity**.
+**Content completeness** means task / information coverage—not “integrity” in the moral sense, and not CAF **complexity**. It is an **automation compromise**: open depth is hard to auto-score; large exams still use examiners for depth-like judgments; fully auto batteries constrain answer freedom—see [content-completeness.md](content-completeness.md).
 
 Avoid bare labels **Accuracy** / **Integrity** on stakeholder reports: they overclaim or misread easily.
 

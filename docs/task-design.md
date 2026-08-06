@@ -14,6 +14,8 @@ Illustrative item types used in this product family (names are descriptive; prod
 
 Counts per type and which types appear in **brief** vs **detailed** reports are product policy (see [score-composition.md](score-composition.md)). Exact stems and audio assets are omitted.
 
+Answer freedom is **bounded on purpose**: automated **content completeness** needs scorable targets or constrained meaning spaces. Fully open depth / complexity stays largely with human examiners in large oral exams—see [content-completeness.md](content-completeness.md).
+
 ---
 
 ## Design principles (public)

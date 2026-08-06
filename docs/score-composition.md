@@ -23,7 +23,7 @@ Exact type counts, which types enter brief mode, and numeric weights are **produ
 | Content-completeness scores | Vendor and/or task-specific rules | Same |
 | Fluency | In-house chain ([fluency.md](fluency.md)) | Authoritative for the fluency axis in this stack |
 | Per-type coefficients | Product policy | Shape: types can weight differently; values private |
-| Missing-item policy | Product policy | Shape: unanswered items should shrink confidence or total via a **documented rule** (e.g. answered/expected scaling)—exact exponents private |
+| Missing-item policy | Product policy | See [missing-responses.md](missing-responses.md): unanswered shrinks the composite internally; **exact rule not on the report face**; exponents private |
 
 ---
 
@@ -31,7 +31,7 @@ Exact type counts, which types enter brief mode, and numeric weights are **produ
 
 1. **Typed inputs** — do not average incompatible vendor floats without naming the construct.
 2. **Fluency override** — if vendor exposes a fluency field, do not let it silently replace the in-house fluency axis.
-3. **Missingness is first-class** — a high score on two of five items is not the same as a complete battery; composition should reflect coverage.
+3. **Missingness is first-class** — unanswered items **lower the total**; the report does not print a separate “incomplete” badge ([missing-responses.md](missing-responses.md)).
 4. **Brief ≠ detailed with dropped rows** — brief mode is a deliberate subset of tasks and often coarser aggregation, not “hide three columns.”
 5. **No CEFR / IELTS claim by default** — any band mapping is optional product packaging and easily oversold; this repo does not treat band tables as core methodology.
 
@@ -41,6 +41,8 @@ Exact type counts, which types enter brief mode, and numeric weights are **produ
 
 **Content completeness** answers: *did this response satisfy the communicative / informational demand of the item?*  
 That can dominate open tasks (paraphrase, listen–answer, content expression) and matter less for pure read-aloud—type coefficients exist partly for that reason.
+
+It does **not** score argument depth or CAF complexity. That limit is by design under auto-scoring—see [content-completeness.md](content-completeness.md).
 
 ---
 
