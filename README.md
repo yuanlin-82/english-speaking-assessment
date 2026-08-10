@@ -6,6 +6,8 @@ Public notes on **how oral English is measured and composed into scores** in int
 
 Companion (dialogue **routing**, not ability scores): [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map). Production scoring configs stay private; this repo is methodology only.
 
+Whole-session product context (oral as one weighted report dimension): [system map on profile](https://github.com/yuanlin-82/yuanlin-82/blob/main/docs/system-map.md).
+
 ---
 
 ## 5-minute visitor guide
