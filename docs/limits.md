@@ -8,3 +8,5 @@
 6. **Not production config** — weights, prompts, audio, RMSE tables, and lexicons stay private ([NOTICE.md](../NOTICE.md)).
 7. **Fluency is hard on short speech** — composition and UI should expose uncertainty, not fake precision.
 8. **Expert alignment is ongoing** — “self-built fluency” implies a validation burden; publishing the chain is not the same as publishing a frozen model.
+9. **Brief oral batteries are screens** — a few short remote tasks under hiring price points are coarser than education-sector oral exams (cost, time, environment). Do not over-read them as full proficiency certification ([stimulus-selection.md](stimulus-selection.md)).
+10. **Interaction-based oral as a scored product is parked** — author bar: without assess-while-probing **demand** control, dialogue is not sold as oral-ability assessment; LLMs may change follow-up wording without clearing that bar. See [task-vs-interaction.md](task-vs-interaction.md#interactive-oral-theoretically-sound-hard-to-ship-as-assessment).

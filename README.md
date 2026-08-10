@@ -14,7 +14,7 @@ Whole-session product context (oral as one weighted report dimension): [system m
 
 | Read first | Product problem it answers |
 | --- | --- |
-| [docs/task-vs-interaction.md](docs/task-vs-interaction.md) | Task-based oral ≠ interaction oral ≠ **English-medium competency** interview |
+| [docs/task-vs-interaction.md](docs/task-vs-interaction.md) | Task vs interaction vs competency-in-English; why “chatty oral tests” need demand control; task-score vs free-chat friction |
 | [docs/fluency.md](docs/fluency.md) + [failure-case-vendor-fluency-insensitive.md](docs/failure-case-vendor-fluency-insensitive.md) | Why “fluency API” was not enough; in-house rate / pause / repair |
 | [docs/content-completeness.md](docs/content-completeness.md) | Coverage under automation limits—not examiner depth |
 
@@ -46,17 +46,19 @@ Then: [construct.md](docs/construct.md) · [score-composition.md](docs/score-com
 
 ## Reading order
 
-1. [docs/task-vs-interaction.md](docs/task-vs-interaction.md) — task vs dialogue oral tests; competency-in-English caveat  
+1. [docs/task-vs-interaction.md](docs/task-vs-interaction.md) — elicitation families; interactive oral bar; HR “looks like exam” / task vs free-chat frictions  
 2. [docs/construct.md](docs/construct.md) — report constructs, CAF vs product dimensions  
 3. [docs/task-design.md](docs/task-design.md) — five item types and what they evidence  
-4. [docs/content-completeness.md](docs/content-completeness.md) — coverage axis as automation compromise; why answer freedom is bounded  
-5. [docs/fluency.md](docs/fluency.md) — why fluency is owned in-house; observable chain  
-6. [docs/score-composition.md](docs/score-composition.md) — vendor scores + report composition contract  
-7. [docs/missing-responses.md](docs/missing-responses.md) — unanswered items, retries, what the report does not flag  
-8. [docs/lexicon-layer.md](docs/lexicon-layer.md) — supporting lexicon / morphology layer (shape only)  
-9. [docs/failure-case-pronunciation-accent-channel.md](docs/failure-case-pronunciation-accent-channel.md) — field note: movie-like speech vs score; accent identity; channel/audio  
-10. [docs/failure-case-vendor-fluency-insensitive.md](docs/failure-case-vendor-fluency-insensitive.md) — field note: vendor fluency barely moves under obvious disfluency  
-11. [docs/limits.md](docs/limits.md) — what this repo will not claim  
+4. [docs/stimulus-selection.md](docs/stimulus-selection.md) — scene filter, format-controlled difficulty, TTS / sampling honesty  
+5. [docs/stimulus-packaging.md](docs/stimulus-packaging.md) — still + audio muxed as one “video” attachment  
+6. [docs/content-completeness.md](docs/content-completeness.md) — coverage axis as automation compromise; why answer freedom is bounded  
+7. [docs/fluency.md](docs/fluency.md) — why fluency is owned in-house; observable chain  
+8. [docs/score-composition.md](docs/score-composition.md) — vendor scores + report composition contract  
+9. [docs/missing-responses.md](docs/missing-responses.md) — unanswered items, retries, what the report does not flag  
+10. [docs/lexicon-layer.md](docs/lexicon-layer.md) — supporting lexicon / morphology layer (shape only)  
+11. [docs/failure-case-pronunciation-accent-channel.md](docs/failure-case-pronunciation-accent-channel.md) — field note: movie-like speech vs score; accent identity; channel/audio  
+12. [docs/failure-case-vendor-fluency-insensitive.md](docs/failure-case-vendor-fluency-insensitive.md) — field note: vendor fluency barely moves under obvious disfluency  
+13. [docs/limits.md](docs/limits.md) — what this repo will not claim  
 
 ---
 

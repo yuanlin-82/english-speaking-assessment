@@ -17,7 +17,69 @@ Neither family “wins.” Choice follows **construct**, **use**, and **operatio
 
 The methodology documented here is primarily **task-based**: controlled item types (read-aloud, listen–repeat, paraphrase, listen–answer, content expression) → multi-indicator scores → report composition.
 
-An **interaction-based oral proficiency** path (adaptive follow-ups aimed at language quality × fluency) may appear as a *design sketch* elsewhere; it is **not** claimed here as a shipped measurement contract.
+An **interaction-based oral proficiency** path (examiner-style turns aimed at language ability) is **theoretically coherent** but **not** shipped here as an assessment product—see [interactive oral](#interactive-oral-theoretically-sound-hard-to-ship-as-assessment) below.
+
+---
+
+## Interactive oral: theoretically sound, hard to ship as assessment
+
+For **interaction-based measurement of oral ability** (not competency-in-English interviewing), a trained examiner does roughly this:
+
+1. While listening, **decode the speech** and **update a running judgment of oral level**—largely in parallel, not as two offline stages.  
+2. Choose the **next probe** so its **cognitive–linguistic demand** fits that running judgment (stretch, scaffold, or hold).  
+3. Treat probing as **measurement**, not chat: suitable questions are how the examiner **approaches the candidate’s true level**.
+
+**Product premise (author stance).**  
+If a “conversational oral test” **cannot** implement assess-while-probing—i.e. cannot control next-probe **demand** from the previous turn’s oral performance—it does **not** meet the precondition for selling that dialogue as an **oral-ability assessment**. Looking like an interview is not enough. Task-based batteries remain **logically coherent** under a different contract: fixed / semi-fixed tasks → scores, without claiming examiner-style demand adaptation inside chat.
+
+Under the interactive construct, follow-ups that never adjust demand are not merely “less natural.” They fail the measurement logic: the dialogue can **look** like an oral interview while **not** tracking ability the way adaptive human examining does.
+
+**Theory (why it is feasible in principle).**  
+Interactive / interviewer-mediated speaking assessment and adaptive language testing both assume that **elicitation demand** should respond to emerging evidence of ability. Human examiners implement a compressed, online version of that idea (“human IRT”-like behavior): estimate and choose the next demand together.
+
+**Technology (why live stacks struggle—and what is *not* claimed).**  
+Typical voice pipelines wait for **ASR finalization** (or a late stable hypothesis) before “understanding” and generation. Human examining does **not** wait for a full transcript to start judging. On top of that, the hot path must, within roughly **sub-second** budgets suitable for TTS dialogue:
+
+- update a **reversible** view of the last turn’s oral performance, and  
+- select or constrain the **next probe’s demand**, and  
+- emit one **speakable** interviewer utterance.
+
+Those steps contend with the same latency envelope as stop brakes and follow-up generation.
+
+This is **not** a claim that LLMs are incapable of *wording* easier or harder follow-ups. Models can be prompted or cascaded to change surface demand. The open issue is whether that yields **assessment-grade** control: stable direction, reversible updates, path-comparable scores, under ASR timing and live UX—not merely fluent chat. Stronger LLMs alone do not remove the **ordering problem** (assessment gated on ASR) or the **joint real-time demand-control** problem. This repo does not report a definitive experiment; it records the product bar and the engineering bind.
+
+**Boundaries (what this section does *not* say).**
+
+- It does **not** claim task-based oral batteries are invalid—they use a **different** elicitation contract.  
+- It does **not** require competency follow-ups to adapt **language demand**; those turns optimize **job-evidence gaps** ([ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)).  
+- It does **not** ship an interactive oral engine here—only names why that path is parked as a **measurement product**.
+
+---
+
+## Stakeholder frictions (HR and “good enough”)
+
+### “It chats, so it must be like a speaking exam”
+
+Non-measurement stakeholders often use a short heuristic: *if the AI follows up coherently, it feels like a face-to-face oral exam—so it must be measuring speaking.* Market products that **look** conversational amplify that heuristic.
+
+Useful pushback without jargon:
+
+- Coherent chat shows **interaction skill of the system**, not automatic **oral-ability measurement**.  
+- Examiner-mediated oral tests hitch value to **demand that moves with performance**. Many LLM demos optimize for continuity and helpfulness, which can work against controlled elicitation.  
+- Relaxing the brand (“we don’t need to match a famous exam”) does **not** relax the physics of assessment: if scores still rank candidates, “roughly like dialogue testing” is not a cheaper measurement design—it is often a **vaguer claim with the same hard requirements**.
+
+### Task-based scores vs free conversation in a live recap
+
+Task-based paths have a **real** stakeholder pain: a candidate may do well on scaffolded tasks yet struggle in open English chat with an English-speaking interviewer who does not think in constructs. That interviewer may conclude “they can’t speak,” and treat the machine score as wrong.
+
+Both sides can be locally true:
+
+| Setting | What is being sampled |
+| --- | --- |
+| Task battery | Production under **standard stimuli** and time boxes |
+| Free recap chat | Production under **social pressure**, topic shifts, and little scaffolding |
+
+Related ≠ identical. Do not use unstructured chat as the sole acceptance test of task scores—or use task scores to guarantee polished small talk. If the hiring process cares about unscaffolded dialogue, add an explicit **conversation observation** step (human or separate module) instead of forcing one number to mean both.
 
 ---
 
@@ -39,6 +101,8 @@ Stakeholders (especially HR) often label all of the following as “English inte
 | **Failure mode if mixed** | Treat thin content as “low English,” or fluent emptiness as “strong hire signal” | Same confusion in reverse |
 
 **Rule of thumb:** oral ability is more **foundational**; competency shown *in English* is closer to **oral accessibility × competency evidence quality**. A fluency breakdown can cap how much competency evidence you can observe; fluent speech does not create competency.
+
+**Product routing for “industry English”:** keep the task-based oral bank on **general workplace** materials. When a client needs sector language (jargon-heavy finance, clinical, …), prefer **competency interviewing in English** over stuffing specialty passages into the oral scorer ([stimulus-selection.md](stimulus-selection.md)).
 
 Routing contracts for competency-style follow-ups (including English-track locale constraints) live in:
 
