@@ -112,6 +112,29 @@ Do not read that repo as an oral-proficiency examiner engine, and do not read th
 
 ---
 
+## Same LLM follow-ups, different evidence gaps
+
+A fair question: *if both pipelines use an LLM to generate the next probe, why can competency follow-ups collect job evidence while “oral” follow-ups are held to a stricter bar?*
+
+**Shared shape.** Both can be described as **closing evidence gaps** after a turn: current evidence is not enough for the decision the product claims to make, so the next ask should target what is missing—not small talk.
+
+**Different gaps.**
+
+| | Competency follow-up | Interactive oral-ability follow-up |
+| --- | --- | --- |
+| **Gap type** | Empty **job-evidence cells** (e.g. action, result, personal contribution, decision criteria) | Insufficient information for an **oral-level judgment**, or the current **elicitation demand** fails to yield usable language samples |
+| **What the next probe usually changes** | *Which content* to dig | Often the **cognitive–linguistic demand** of the ask (stretch / scaffold / hold)—not only a finer content slot |
+| **“Gap closed” looks like** | The episode / reasoning is scorable for hiring | Performance under an appropriate demand supports estimating oral ability |
+
+So it is not that LLM follow-ups “work for competency but cannot produce any language evidence.” Speech always leaves raw traces. The issue is whether unconstrained, demand-uncontrolled chat yields **assessment-grade** oral measurement. Competency probing is not magic either: without a typed strategy contract, LLMs also fail to close job-evidence gaps—that is what the [decision-map](https://github.com/yuanlin-82/ai-interview-decision-map) is for.
+
+**Finer, but not only finer.** Oral probes are often more sensitive to wording and demand. That is only half the story: the gap is frequently a **demand / information** gap for ability estimation, not merely a higher-resolution version of STAR cells.
+
+**One line for stakeholders.**  
+Competency follow-ups close **job-evidence** gaps; interactive oral follow-ups (when sold as ability measurement) must close **ability-evidence** gaps—commonly by adjusting next-probe **demand**. Same generator family, different contracts.
+
+---
+
 ## One-line stakeholder framing
 
 **Tasks** ask: *under standard stimuli, what English can this person produce?*  
