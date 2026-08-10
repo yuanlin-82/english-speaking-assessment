@@ -14,7 +14,8 @@ Whole-session product context (oral as one weighted report dimension): [system m
 
 | Read first | Product problem it answers |
 | --- | --- |
-| [docs/task-vs-interaction.md](docs/task-vs-interaction.md) | Task vs interaction vs competency-in-English; demand bar; same LLM / different evidence gaps |
+| [docs/task-vs-interaction.md](docs/task-vs-interaction.md) | Task vs interaction vs competency-in-English; demand bar; same LLM / different evidence gaps (multi-angle vs demand band) |
+| [docs/notes-working-metaphor.md](docs/notes-working-metaphor.md) | Optional intuition only—not a measurement claim |
 | [docs/fluency.md](docs/fluency.md) + [failure-case-vendor-fluency-insensitive.md](docs/failure-case-vendor-fluency-insensitive.md) | Why “fluency API” was not enough; in-house rate / pause / repair |
 | [docs/content-completeness.md](docs/content-completeness.md) | Coverage under automation limits—not examiner depth |
 

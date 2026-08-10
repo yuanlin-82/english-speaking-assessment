@@ -123,15 +123,18 @@ A fair question: *if both pipelines use an LLM to generate the next probe, why c
 | | Competency follow-up | Interactive oral-ability follow-up |
 | --- | --- | --- |
 | **Gap type** | Empty **job-evidence cells** (e.g. action, result, personal contribution, decision criteria) | Insufficient information for an **oral-level judgment**, or the current **elicitation demand** fails to yield usable language samples |
-| **What the next probe usually changes** | *Which content* to dig | Often the **cognitive–linguistic demand** of the ask (stretch / scaffold / hold)—not only a finer content slot |
+| **What the next probe usually changes** | *Which content / aspect* to dig (high-gain angle over the job-evidence map) | Often the **cognitive–linguistic demand** of the ask (stretch / scaffold / hold)—not only a finer content slot |
+| **Geometry of the next ask** | **Multi-angle sampling** of the same episode or judgment—pick the side that closes the most empty cells | **Calibrate along a demand band**—place the next probe near the running oral-level estimate (approach the ability interval) |
 | **“Gap closed” looks like** | The episode / reasoning is scorable for hiring | Performance under an appropriate demand supports estimating oral ability |
 
 So it is not that LLM follow-ups “work for competency but cannot produce any language evidence.” Speech always leaves raw traces. The issue is whether unconstrained, demand-uncontrolled chat yields **assessment-grade** oral measurement. Competency probing is not magic either: without a typed strategy contract, LLMs also fail to close job-evidence gaps—that is what the [decision-map](https://github.com/yuanlin-82/ai-interview-decision-map) is for.
 
-**Finer, but not only finer.** Oral probes are often more sensitive to wording and demand. That is only half the story: the gap is frequently a **demand / information** gap for ability estimation, not merely a higher-resolution version of STAR cells.
+**Finer, but not only finer.** Oral probes are often more sensitive to wording and demand. That is only half the story: the gap is frequently a **demand / information** gap for ability estimation, not merely a higher-resolution version of STAR cells. Competency success is less about asking more and more about **which aspect** yields evidence; interactive oral success (under this bar) is less about clever wording variety and more about **where on the demand axis** the next probe lands.
 
 **One line for stakeholders.**  
-Competency follow-ups close **job-evidence** gaps; interactive oral follow-ups (when sold as ability measurement) must close **ability-evidence** gaps—commonly by adjusting next-probe **demand**. Same generator family, different contracts.
+Competency follow-ups close **job-evidence** gaps by choosing an efficient dig angle; interactive oral follow-ups (when sold as ability measurement) must close **ability-evidence** gaps—commonly by adjusting next-probe **demand** toward the estimated band. Same generator family, different contracts.
+
+Optional intuition-only note (not a measurement claim): [notes-working-metaphor.md](notes-working-metaphor.md).
 
 **Language’s role (without a philosophy-of-mind claim).**  
 In competency interviews, language is mainly a **channel / means**: it carries experiences and judgments so assessors can score **job evidence**—English is not the construct being graded. In oral-ability assessment, language performance is the **object / end**: scores target speaking dimensions (e.g. pronunciation, fluency, coverage). Poor English in a competency interview often shows up as **harder-to-harvest evidence**; in an oral test it *is* the signal under measure. This is a product and measurement distinction, not a claim that “language is the vehicle of thought.”
