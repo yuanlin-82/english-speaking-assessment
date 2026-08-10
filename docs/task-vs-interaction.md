@@ -133,6 +133,9 @@ So it is not that LLM follow-ups “work for competency but cannot produce any l
 **One line for stakeholders.**  
 Competency follow-ups close **job-evidence** gaps; interactive oral follow-ups (when sold as ability measurement) must close **ability-evidence** gaps—commonly by adjusting next-probe **demand**. Same generator family, different contracts.
 
+**Language’s role (without a philosophy-of-mind claim).**  
+In competency interviews, language is mainly a **channel / means**: it carries experiences and judgments so assessors can score **job evidence**—English is not the construct being graded. In oral-ability assessment, language performance is the **object / end**: scores target speaking dimensions (e.g. pronunciation, fluency, coverage). Poor English in a competency interview often shows up as **harder-to-harvest evidence**; in an oral test it *is* the signal under measure. This is a product and measurement distinction, not a claim that “language is the vehicle of thought.”
+
 ---
 
 ## One-line stakeholder framing
