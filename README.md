@@ -2,9 +2,21 @@
 
 Public notes on **how oral English is measured and composed into scores** in interview / talent products—not a scoring API, not a model card.
 
-Companion repo (dialogue **routing**, not ability scores):
+**Author role:** content / assessment design—report **constructs**, task design, fluency ownership when vendors fail, composition shape. Not a claim to own speech-vendor internals or a full CEFR instrument.
 
-- [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)
+Companion (dialogue **routing**, not ability scores): [ai-interview-decision-map](https://github.com/yuanlin-82/ai-interview-decision-map). Production scoring configs stay private; this repo is methodology only.
+
+---
+
+## 5-minute visitor guide
+
+| Read first | Product problem it answers |
+| --- | --- |
+| [docs/task-vs-interaction.md](docs/task-vs-interaction.md) | Task-based oral ≠ interaction oral ≠ **English-medium competency** interview |
+| [docs/fluency.md](docs/fluency.md) + [failure-case-vendor-fluency-insensitive.md](docs/failure-case-vendor-fluency-insensitive.md) | Why “fluency API” was not enough; in-house rate / pause / repair |
+| [docs/content-completeness.md](docs/content-completeness.md) | Coverage under automation limits—not examiner depth |
+
+Then: [construct.md](docs/construct.md) · [score-composition.md](docs/score-composition.md) · [limits.md](docs/limits.md).
 
 ---
 
