@@ -20,6 +20,8 @@ Companion (dialogue **routing**, not ability scores): [ai-interview-decision-map
 
 Whole-session product context (oral as one weighted report dimension): [system map on profile](https://github.com/yuanlin-82/yuanlin-82/blob/main/docs/system-map.md).
 
+Competency dialogue scores (job-evidence cells → dimensions)—separate from this oral composition path: [item → dimension](https://github.com/yuanlin-82/yuanlin-82/blob/main/docs/item-to-dimension-score.md). Chinese referral sheet: [zh-overview](https://github.com/yuanlin-82/yuanlin-82/blob/main/docs/zh-overview.md).
+
 ---
 
 ## Visitor guide
