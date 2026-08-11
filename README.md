@@ -1,12 +1,12 @@
 # English speaking assessment (methodology)
 
-## 中文导读（约1分钟）
+## 中文导读
 
 本仓库记录招聘 / 人才场景里 **任务型英语口语如何测量、如何组成报告分**——不是评分 API，也不是模型卡。
 
 - **主线**：固定/半固定口语任务 → 发音、流利度、内容完整度等 → 报告合成。  
 - **务必分开**：任务口语能力分 ≠ 交互式口语定级 ≠ **用英语做的胜任力面试**（后者收岗位证据，见 [decision-map](https://github.com/yuanlin-82/ai-interview-decision-map)）。  
-- **五分钟入口**：[task-vs-interaction.md](docs/task-vs-interaction.md)（形态 vs 构念、demand 条、多角度挖证据 vs 需求带定标）。
+- **建议先读**：[task-vs-interaction.md](docs/task-vs-interaction.md)（形态 vs 构念、demand 条、多角度挖证据 vs 需求带定标）。
 
 生产权重与厂商内部实现不公开；此处只写可分享的方法论与边界。
 
@@ -22,7 +22,7 @@ Whole-session product context (oral as one weighted report dimension): [system m
 
 ---
 
-## 5-minute visitor guide
+## Visitor guide
 
 | Read first | Product problem it answers |
 | --- | --- |
